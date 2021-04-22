@@ -1,0 +1,42 @@
+For this project three types of programs are used a sort, scan and focus program. All 3 of them 
+access the memory in a different manner.
+
+On an average the FIFO and the Custom page replacement, ie. Second Chance page replacement both are
+giveing similar results on the above mentioned test programs, while the Random page replacement has
+generally a higher page fault rate with some exceptions.
+
+Graph for the page replacemt policies (with 100 pages):
+
+Random:
+                  
+Page Faults             scan              sort           focus
+
+2 frames                1100              1601            299
+
+10 frames               987               880             288
+
+50 frames               907               430             238 
+
+75 frames               605               325             193
+
+FIFO:
+                  
+Page Faults             scan              sort           focus
+
+2 frames                1100              1298            299
+
+10 frames               1100              975             288
+
+50 frames               1100              375             236 
+
+75 frames               1100              400             200
+
+
+Random page replacement in general will not give a good page replacement rate, because of its random 
+nature some recently added pages may get replaced agian which will cause unnecessary page faults.
+While the FIFO and Second Chance are different in theory but for the given experiment programs they
+ seem to have similar results.
+
+In all 3 page replacement policies we bring an page fom the disc only when the program explicitely 
+asks for the page. If no empty frame is available then we remove some old frame to make space, thus
+ we can say the code implements demand paging.

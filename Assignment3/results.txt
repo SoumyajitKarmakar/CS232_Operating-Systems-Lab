@@ -1,0 +1,51 @@
+Process List 1:
+	FCFS: 
+		Average turnaround time: 7.00
+		Average wait time: 3.00
+	RR(2 unit):
+		Average turnaround time: 9.00
+		Average wait time: 5.00
+	SRBF:
+		Average turnaround time: 6.75
+		Average wait time: 2.75
+	
+	We see that for this process list the SRBF seems to be the most efficient as it gives the lowest average wait time as well as the lowest turnaround time. However with SRBF there can be the problem of starvation.
+
+Process List 2:
+	FCFS:
+		Average turnaround time: 11.25
+		Average wait time: 5.75
+	RR(2 unit):
+		Average turnaround time: 15.75
+		Average wait time: 10.25
+	SRBF:
+		Average turnaround time: 10.50
+		Average wait time: 5.00
+	
+	We see that for this process list the SRBF seems to be the most efficient as it gives the lowest average wait time as well as the lowest turnaround time. However with SRBF there can be the problem of starvation.
+
+Process List 3:
+	FCFS:
+		Average turnaround time: 12.80
+		Average wait time: 8.00
+	RR(2 unit):
+		Average turnaround time: 13.40
+		Average wait time: 8.60
+	SRBF:
+		Average turnaround time: 10.00
+		Average wait time: 5.20
+	
+	We see that for this process list the SRBF seems to be the most efficient as it gives the lowest average wait time as well as the lowest turnaround time. However with SRBF there can be the problem of starvation.
+
+Process List 4:
+	FCFS:
+		Average turnaround time: 14.75
+		Average wait time: 6.25
+	RR(2 unit):
+		Average turnaround time: 18.25
+		Average wait time: 12.25
+	SRBF:
+		Average turnaround time: 12.25
+		Average wait time: 6.25
+
+	We see that for this process list the SRBF seems to be the most efficient as it gives the lowest average wait time as well as the lowest turnaround time. However with SRBF there can be the problem of starvation. In this example if we consider only the average wait time then we may use the FCFS as it gives similar result.
